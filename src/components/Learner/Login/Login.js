@@ -75,7 +75,7 @@ class Login extends Component{
                     <div className="text-danger">{emailError}</div>
                     <input type="email" className="form-control" placeholder="Email Address" ref={this.email}/>  
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <div className="text-danger">{passwordError}</div>
                     <input type="password" className="form-control" placeholder="Password" ref={this.password} />
                   </div>

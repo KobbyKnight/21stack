@@ -6,9 +6,15 @@
 .videoContainer {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
+  padding: 8% 0 0 0;
 }
 
+#welcometext{
+    padding: 8% 0 0 0;
+    height: auto;
+    width: 100%;
+}
 video {
   height: auto;
   vertical-align: middle;

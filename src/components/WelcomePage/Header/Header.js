@@ -7,7 +7,7 @@ const Header = () => {
       <video className="video" autoPlay="autoplay">
         <source src="https://www.softnet.cloud/assets/uploads/final/sl_landing_video.mp4" type="video/mp4"/>
       </video> 
-      <div className="container mt-5 text">
+      <div className="container text" id="welcometext">
         <div className="d-none d-sm-block move">
           <h1 className="display-4 text-center text-light d-none d-sm-block move" style={{marginTop: "-200px"}}>We Provide AWS Consulting &amp; Technology Services</h1>
           <p className="lead text-center text-secondary  d-none d-sm-block">We design, architect, build, migrate and manage applications on AWS Cloud.

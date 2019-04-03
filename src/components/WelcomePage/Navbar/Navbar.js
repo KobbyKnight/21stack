@@ -1,10 +1,11 @@
 import React from 'react';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <div id="home">
-      <nav className="navbar navbar-expand-lg right navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg right navbar-light bg-light" id="custom">
         <a className="navbar-brand font-weight-bold" href="#"><span><i className="fas fa-code"></i></span> 21stStack</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
